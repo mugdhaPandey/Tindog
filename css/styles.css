@@ -1,0 +1,212 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+   padding: 0 0 4.5rem; /* to align the tindog with the rest of the text by manually setting the padding of top,left and right to 0 */
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Title Section */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title image */
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.title-img-container {
+  position: relative;
+}
+
+/* Features Section*/
+
+#features{
+  background-color: white;
+  position: relative;
+  /* But even if this is skipped it would still work the same cuz when elements dont have any z-index, their heirarchal level is same as
+  the order of them in the index.html file. */
+  /* z-index: 1; */
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box{
+
+  padding: 5% /*to make the description lines appear in multiple lines rather than 1 long single line*/
+}
+
+.heart{
+  /*color: #ef8172;*/
+  width: 33%;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.check{
+  width: 33%;
+  margin-bottom: 1.5rem;
+}
+
+.bulleye{
+  width: 33%;
+  margin-bottom: 1.5rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-img {
+  border-radius: 100%;
+  width: 40%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.no-show {
+  visibility: hidden;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.last {
+  margin: 5% auto;
+}
+
+/* Footer Section */
+
+.social-icons {
+  color: #ef8172;
+  margin: 20px 10px;
+}
+
+.social-icons:hover{
+  color: #ff4c68;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
